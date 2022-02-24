@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharp Notes", "Sharp Notes\Sharp Notes.csproj", "{602FD594-9208-40BA-9DC9-6DB2EAF502D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{602FD594-9208-40BA-9DC9-6DB2EAF502D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602FD594-9208-40BA-9DC9-6DB2EAF502D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602FD594-9208-40BA-9DC9-6DB2EAF502D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602FD594-9208-40BA-9DC9-6DB2EAF502D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC126F4F-5FC0-4981-A3AF-7826C757B97D}
+	EndGlobalSection
+EndGlobal
