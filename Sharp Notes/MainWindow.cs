@@ -24,6 +24,7 @@ namespace Sharp_Notes
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e) => Exit();
         private void newWindowToolStripMenuItem_Click(object sender, EventArgs e) => notepad.NewWindow();
+        private void openToolStripMenuItem_Click(object sender, EventArgs e) => notepad.Open();
 
         #endregion
 
@@ -41,6 +42,11 @@ namespace Sharp_Notes
                 notepad.NewWindow();
                 return true;
             }
+            else if (keyData == (Keys.Control | Keys.O))
+            {
+                notepad.Open();
+                return true;
+            }
             return base.ProcessCmdKey(ref msg, keyData);
         }
 
@@ -51,6 +57,15 @@ namespace Sharp_Notes
         private void Exit() => Environment.Exit(0);
 
         #endregion
+
+        #endregion
+
+        #region Generics
+
+        public void UpdateStatus(string status)
+        {
+            this.Text = "Sharp Notes - " + status;
+        }
 
         #endregion
     }
