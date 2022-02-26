@@ -72,6 +72,7 @@ namespace Sharp_Notes
             this.noteTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.noteTextBox.Size = new System.Drawing.Size(1404, 662);
             this.noteTextBox.TabIndex = 0;
+            this.noteTextBox.TextChanged += new System.EventHandler(this.noteTextBox_TextChanged);
             // 
             // menuStrip
             // 
@@ -112,6 +113,7 @@ namespace Sharp_Notes
             this.newToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+N";
             this.newToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
             this.newToolStripMenuItem.Text = "New";
+            this.newToolStripMenuItem.Click += new System.EventHandler(this.newToolStripMenuItem_Click);
             // 
             // newWindowToolStripMenuItem
             // 
@@ -135,6 +137,7 @@ namespace Sharp_Notes
             this.saveToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+S";
             this.saveToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
             this.saveToolStripMenuItem.Text = "Save";
+            this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
             // 
             // saveAsToolStripMenuItem
             // 
@@ -142,6 +145,7 @@ namespace Sharp_Notes
             this.saveAsToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+Shift+S";
             this.saveAsToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
             this.saveAsToolStripMenuItem.Text = "Save as...";
+            this.saveAsToolStripMenuItem.Click += new System.EventHandler(this.saveAsToolStripMenuItem_Click);
             // 
             // toolStripSeparator1
             // 
@@ -153,6 +157,7 @@ namespace Sharp_Notes
             this.pageSetupToolStripMenuItem.Name = "pageSetupToolStripMenuItem";
             this.pageSetupToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
             this.pageSetupToolStripMenuItem.Text = "Page Setup...";
+            this.pageSetupToolStripMenuItem.Click += new System.EventHandler(this.pageSetupToolStripMenuItem_Click);
             // 
             // printToolStripMenuItem
             // 
@@ -160,6 +165,7 @@ namespace Sharp_Notes
             this.printToolStripMenuItem.ShortcutKeyDisplayString = "Ctrl+P";
             this.printToolStripMenuItem.Size = new System.Drawing.Size(232, 22);
             this.printToolStripMenuItem.Text = "Print...";
+            this.printToolStripMenuItem.Click += new System.EventHandler(this.printToolStripMenuItem_Click);
             // 
             // toolStripSeparator2
             // 
