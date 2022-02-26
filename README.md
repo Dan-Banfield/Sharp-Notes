@@ -9,7 +9,7 @@
   <h3 align="center">Sharp Notes</h3>
 
   <p align="center">
-    An alternative to the default windows notepad, written in C#!
+    An alternative to the default Windows notepad, written in C#!
   </p>
 </div>
 
